@@ -6,6 +6,8 @@ const header_search = document.querySelector(".header-search");
 const header_logo = document.querySelector(".header-logo");
 const header_nav = document.querySelector(".header-nav");
 const menu_open = document.querySelector(".menu-open");
+const main_content = document.querySelector("#main-content");
+const overlay = document.getElementById("overlay");
 
 const has_submenu = document.querySelectorAll(".has-submenu");
 const submenu_back = document.querySelector(".submenu-back");
@@ -29,6 +31,8 @@ search_close.addEventListener("click", () => {
 
 menu_open.addEventListener("click", () => {
     header_nav.classList.add("active");
+    main_content.style.filter = "blur(2px)"
+    overlay.style.display = "block";
 })
 
 has_submenu.forEach((toggle) => {
@@ -56,29 +60,92 @@ submenu_back.addEventListener("click", () => {
 
 menu_close.addEventListener("click", () => {
     header_nav.classList.remove ("active");
+    main_content.style.filter = "none";
+    overlay.style.display = "none";
 })
 
 
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
+const swiper = new Swiper('.swiperSlider', {
     direction: 'horizontal',
-    loop: true,
-  
-    // If we need pagination
+    loop: true, 
+    autoplay: {
+        delay: 5000,
+    },
+
     pagination: {
-      el: '.swiper-pagination',
-      clickable: true
+        el: '.swiper-pagination',
+        clickable: true
     },
-  
-    // Navigation arrows
+
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
     },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-      clickable: true,
+});
+
+var swiper2 = new Swiper(".swiperPost", {
+    watchSlidesProgress: true,
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 10,
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 30
+        }
     },
-  });
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+});
+
+var swiper2 = new Swiper(".slideDoctor", {
+    watchSlidesProgress: true,
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 30
+        }
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+});
+
+var swiper2 = new Swiper(".specialty-items", {
+    watchSlidesProgress: true,
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 30
+        }
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+});
