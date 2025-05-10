@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/components/bootstrap/css/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="public/components/swiper/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="public/css/reset.css">
+    <link rel="stylesheet" href="public/css/global.css ">
+    <link rel="stylesheet" href="public/css/style.css ">
+    <link rel="stylesheet" href="public/css/listdoctor.css ">
+    <link rel="stylesheet" href="public/css/findbook.css">
+    <title>Health Care</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- header -->
+        <div id="header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="header-logo">
+                        <a href="/" title="Health Care">
+                            <img src="https://medlatec.vn/media/115/content/logo-pc.png" alt="Health Care">
+                        </a>
+                    </div>
+                    <div class="header-search">
+                        <a href="#" class="search-close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </a>
+                        <div class="search-form">
+                            <input type="text" id="keyword" class="form-control" placeholder="Tìm kiếm">
+                            <button class="btn-search"></button>
+                        </div>
+                    </div>
+                    <div class="header-hotline">
+                        <a href="tel:0338237724">
+                            <span>Đường dây nóng</span>
+                            <strong>0338237724</strong>
+                        </a>
+                    </div>
+                    <div class="header-contact">
+                        <a href="https://www.facebook.com/BenhVienDaKhoaMedlatec/" target="_blank">
+                            <span>Liên hệ</span>
+                            <strong>Hỗ trợ khách hàng</strong>
+                        </a>
+                    </div>
+                    <div class="header-account">
+                        <div class="account-not-login">
+                            <a href="#" class="action action-register">Đăng ký</a>
+                            <a href="#" class="action action-login">Đăng nhập</a>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" class="search-open icon-sm"></a>
+                        <a href="#" class="menu-open icon-sm"></a>
+                    </div>
+                </div>
+
+                <div class="header-nav">
+                    <div class="submenu-back">
+                        <i class="fa-solid fa-angle-left"></i>
+                        <span>Menu</span>
+                    </div>
+                    <a href="#" class="menu-close icon-sm"></a>
+                    <div class="header-account">
+                        <div class="account-not-login">
+                            <a href="#" class="action action-register">Đăng ký</a>
+                            <a href="#" class="action action-login">Đăng nhập</a>
+                        </div>
+                    </div>
+                    <ul class="main-menu">
+                        <li>
+                            <a href="/">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="#">Giới thiệu</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#">Dịch vụ y tế</a>
+                            <i class="fa-solid fa-angle-down submenu-toggle"></i>
+                            <ul class="sub-menu">
+                                <strong class="menu-title">Dịch vụ y tế</strong>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="/">Chuyên gia</a>
+                            <i class="fa-solid fa-angle-down submenu-toggle"></i>
+                            <ul class="sub-menu">
+                                <strong class="menu-title">Chuyên gia</strong>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Tin tức</a>
+                        </li>
+                    </ul>
+                    <div class="header-nav-bottom">
+                        <div class="header-hotline">
+                            <a href="tel:0338237724">
+                                <span>Đường dây nóng</span>
+                                <strong>0338237724</strong>
+                            </a>
+                        </div>
+                        <div class="header-contact">
+                            <a href="https://www.facebook.com/BenhVienDaKhoaMedlatec/" target="_blank">
+                                <span>Liên hệ</span>
+                                <strong>Hỗ trợ khách hàng</strong>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end header -->
+        <!-- content -->
+        <div id="main-content">
+            <div class="header-category" style="background-image: url(https://medlatec.vn/med/images/breadcrumb4.jpg);">
+                <div class="container">
+                    <h1>Tra cứu lịch hẹn</h1>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="/">Trang chủ</a>
+                        </li>
+                        <li class="active">Tra cứu lịch hẹn</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="container">
+                <form action="" method="post">
+                    <div class="booking-search-wrapper py-5">
+                        <h2 class="text-center mb-4 text-primary">Tra cứu thông tin lịch hẹn</h2>
+                        <form action="" method="post" class="booking-search-form mx-auto">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <label for="booking_token" class="form-label">Mã đặt lịch</label>
+                                    <input type="text" name="booking_token" id="booking_token" class="form-control mb-3" placeholder="Nhập mã đặt lịch (nếu có)">
+                                </div>
+                                <div class="col-12 text-center my-3">
+                                    <p>Hoặc tra cứu bằng ngày sinh và ngày hẹn</p>
+                                </div>
+                                <div class="col-md-5">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" name="email" id="email" class="form-control mb-3">
+                                </div>
+                                <div class="col-md-5">
+                                    <label for="appointment_date" class="form-label">Ngày khám</label>
+                                    <input type="date" name="appointment_date" id="appointment_date" class="form-control mb-3">
+                                </div>
+                                <div class="col-12 text-center mt-3">
+                                    <button type="submit" class="btn btn-primary px-4">Tra cứu</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>                    
+                </form>
+                <div id="booking-result" class="container py-4" style="display: none;">
+                    <div class="card shadow-sm">
+                        <h3 class="text-primary mb-3">Kết quả tra cứu lịch hẹn</h3>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <strong>Họ tên bệnh nhân:</strong> <span id="patient_name">Nguyễn Văn A</span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <strong>Mã đặt lịch:</strong> <span id="booking_code">ABC123456</span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <strong>Bác sĩ khám:</strong> <span id="doctor_name">TS.BS. Trần Thị B</span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <strong>Chuyên khoa:</strong> <span id="specialty">Nội tổng quát</span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <strong>Ngày khám:</strong> <span id="appointment_day">10/05/2025</span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <strong>Giờ khám:</strong> <span id="appointment_hour">08:30</span>
+                            </div>
+                            <div class="col-12">
+                                <strong>Ghi chú:</strong>
+                                <p id="note">Bệnh nhân vui lòng đến trước 15 phút để làm thủ tục.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <div id="overlay"></div>
+        <div id="loading-overlay" style="display: none;">
+            <div class="loading-content">
+                <div class="spinner"></div>
+                <p class="loading-text">Đang tải lịch hẹn <span class="dots"></span></p>
+            </div>
+        </div>
+              
+        <!-- end content -->
+        <!-- footer -->
+        <div id="footer">
+            <div class="container">
+                <div class="header-footer">
+                    <a href="" class="logo">
+                        <img src="https://medlatec.vn/media/115/content/logo-pc.png" alt="Health Care">
+                    </a>
+                    <div class="info-contact">
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Lô B4/D21, Khu đô thị mới Cầu Giấy, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Thành phố Hà
+                                Nội, Việt Nam</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>024-7301-2468 (7h - 18h)</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>support@bookingcare.vn (7h - 18h)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="end-footer">
+
+                </div>
+            </div>
+        </div>
+        <!-- end footer -->
+    </div>
+
+    <script src="public/components/swiper/js/swiper-bundle.min.js"></script>
+    <script src="public/js/index.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.querySelector(".booking-search-form");
+            const overlay = document.getElementById("loading-overlay");
+        
+            form.addEventListener("submit", function (e) {
+                overlay.style.display = "flex";
+            });
+        });
+
+        // Giả lập dữ liệu kết quả
+        const result = {
+            patient_name: "Nguyễn Văn A",
+            booking_code: "ABC123456",
+            doctor_name: "TS.BS. Trần Thị B",
+            specialty: "Nội tổng quát",
+            appointment_day: "10/05/2025",
+            appointment_hour: "08:30",
+            note: "Bệnh nhân vui lòng đến trước 15 phút để làm thủ tục."
+        };
+
+        // Đổ dữ liệu vào HTML
+        document.getElementById("patient_name").textContent = result.patient_name;
+        document.getElementById("booking_code").textContent = result.booking_code;
+        document.getElementById("doctor_name").textContent = result.doctor_name;
+        document.getElementById("specialty").textContent = result.specialty;
+        document.getElementById("appointment_day").textContent = result.appointment_day;
+        document.getElementById("appointment_hour").textContent = result.appointment_hour;
+        document.getElementById("note").textContent = result.note;
+
+        // Hiển thị kết quả
+        document.getElementById("booking-result").style.display = "block";
+
+    </script>
+        
+</body>
+
+</html>

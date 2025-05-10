@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/components/bootstrap/css/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="public/components/swiper/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="public/css/reset.css">
+    <link rel="stylesheet" href="public/css/global.css ">
+    <link rel="stylesheet" href="public/css/style.css ">
+    <!-- <link rel="stylesheet" href="public/css/listdoctor.css ">
+    <link rel="stylesheet" href="public/css/doctor.css "> -->
+    <link rel="stylesheet" href="public/css/news.css">
+    <title>Health Care</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- header -->
+        <div id="header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="header-logo">
+                        <a href="/" title="Health Care">
+                            <img src="https://medlatec.vn/media/115/content/logo-pc.png" alt="Health Care">
+                        </a>
+                    </div>
+                    <div class="header-search">
+                        <a href="#" class="search-close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </a>
+                        <div class="search-form">
+                            <input type="text" id="keyword" class="form-control" placeholder="Tìm kiếm">
+                            <button class="btn-search"></button>
+                        </div>
+                    </div>
+                    <div class="header-hotline">
+                        <a href="tel:0338237724">
+                            <span>Đường dây nóng</span>
+                            <strong>0338237724</strong>
+                        </a>
+                    </div>
+                    <div class="header-contact">
+                        <a href="https://www.facebook.com/BenhVienDaKhoaMedlatec/" target="_blank">
+                            <span>Liên hệ</span>
+                            <strong>Hỗ trợ khách hàng</strong>
+                        </a>
+                    </div>
+                    <div class="header-account">
+                        <div class="account-not-login">
+                            <a href="#" class="action action-register">Đăng ký</a>
+                            <a href="#" class="action action-login">Đăng nhập</a>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" class="search-open icon-sm"></a>
+                        <a href="#" class="menu-open icon-sm"></a>
+                    </div>
+                </div>
+
+                <div class="header-nav">
+                    <div class="submenu-back">
+                        <i class="fa-solid fa-angle-left"></i>
+                        <span>Menu</span>
+                    </div>
+                    <a href="#" class="menu-close icon-sm"></a>
+                    <div class="header-account">
+                        <div class="account-not-login">
+                            <a href="#" class="action action-register">Đăng ký</a>
+                            <a href="#" class="action action-login">Đăng nhập</a>
+                        </div>
+                    </div>
+                    <ul class="main-menu">
+                        <li>
+                            <a href="/">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="#">Giới thiệu</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#">Dịch vụ y tế</a>
+                            <i class="fa-solid fa-angle-down submenu-toggle"></i>
+                            <ul class="sub-menu">
+                                <strong class="menu-title">Dịch vụ y tế</strong>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="/">Chuyên gia</a>
+                            <i class="fa-solid fa-angle-down submenu-toggle"></i>
+                            <ul class="sub-menu">
+                                <strong class="menu-title">Chuyên gia</strong>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">Dịch vụ bảo hiểm</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Tin tức</a>
+                        </li>
+                    </ul>
+                    <div class="header-nav-bottom">
+                        <div class="header-hotline">
+                            <a href="tel:0338237724">
+                                <span>Đường dây nóng</span>
+                                <strong>0338237724</strong>
+                            </a>
+                        </div>
+                        <div class="header-contact">
+                            <a href="https://www.facebook.com/BenhVienDaKhoaMedlatec/" target="_blank">
+                                <span>Liên hệ</span>
+                                <strong>Hỗ trợ khách hàng</strong>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end header -->
+        <!-- content -->
+        <div id="main-content">
+            <div class="header-category" style="background-image: url(https://medlatec.vn/med/images/breadcrumb4.jpg);">
+                <div class="container">
+                    <h1>Các chuyên khoa y tế</h1>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="/">Trang chủ</a>
+                        </li>
+                        <li class="active">Chuyên khoa y tế</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="container">
+                <div class="services-list">
+                    <div class="service-items">
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/0/default-image.png?size=600" alt=""">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/0/default-image.png?size=256" alt=""
+                                            loading="lazy" class="base">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Y học gia đình
+                                    </h3>
+                                    <div class="service-item-excerpt">
+
+                                    </div>
+                                    <div class="service-item-actions see-detail">
+                                        <a href="/y-hoc-gia-dinh-2" class="action action-view">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/379/catalog/chuyenkhoanoi.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/468/catalog/speciality1-3.svg?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/464/catalog/speciality1-2-3.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Chuyên khoa Nội
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Với ý nghĩa thông qua khám nội, khách hàng/bệnh nhân xác định bước đầu các bất
+                                        thường, để từ đó có hướng khám chuyên sâu chính xác và điều trị hiệu quả. Vì
+                                        vậy, chuyên khoa Nội của Bệnh viện Đa khoa MEDLATEC đã được hội tụ đội ngũ
+                                        chuyên gia, bác sĩ đầu ngành, dày dặn kinh nghiệm cùng hệ thống máy móc, thiết
+                                        bị đồng bộ các chuyên khoa nhằm phục vụ tốt nhất nhu cầu kiểm tra sức khỏe của
+                                        người dân.
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/chuyen-khoa-noi-2" class="action action-view">Xem chi
+                                            tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/187/catalog/anh-chinh-ung-buou.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/135/catalog/speciality2-1.png?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/134/catalog/speciality2-2.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Ung bướu
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Tỷ lệ mắc và tỉ lệ tử vong cao nên ung thư đang là bài toán khó của toàn cầu. Để
+                                        giảm gánh nặng cho gia đình, cũng như giảm sự đau đớn cho người bệnh, chuyên gia
+                                        Ung bướu khuyên người dân nên tầm soát định kỳ ngay cả khi chưa có triệu chứng.
+                                        Thấu hiểu sự cần thiết của tầm soát sớm bệnh, Chuyên khoa Ung bướu, Bệnh viện Đa
+                                        khoa MEDLATEC đã không ngừng nỗ lực đầu tư để mang đến cộng đồng sự an tâm tầm
+                                        soát và điều trị sớm với mục tiêu “ung thư, biết sớm trị lành”.
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/ung-buou" class="action action-view">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/189/catalog/chuyen-khoa-san.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/139/catalog/speciality4-1.png?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/138/catalog/specialty4-2.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Sản khoa
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Được xác định là một trong những chuyên khoa mũi nhọn, chuyên khoa Sản - Phụ
+                                        khoa của Bệnh viện Đa khoa MEDLATEC đã không ngừng chú trọng hội tụ đội ngũ
+                                        chuyên gia, bác sĩ đầu ngành, giàu kinh nghiệm, cùng đầy đủ hệ thống máy móc
+                                        hiện đại để xứng đáng là địa chỉ tin cậy của chị em phụ nữ trong nhiều năm qua.
+
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/san-khoa" class="action action-view">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/473/catalog/anh-chinh-cdha-1.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/474/catalog/download.png?size=256" alt=""
+                                            loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/156/catalog/service6-2.png?size=256" alt=""
+                                            loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Chẩn đoán hình ảnh
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Kết quả chẩn đoán chính xác, phục vụ chuyên nghiệp, tận tâm của đội ngũ y bác
+                                        sĩ, thủ tục nhanh chóng và được trang bị đồng bộ hệ thống máy móc hiện đại, đó
+                                        là những lý do Khoa Chẩn đoán hình ảnh - Bệnh viện Đa khoa MEDLATEC chiếm được
+                                        sự hài lòng hàng ngàn khách hàng trên cả nước đến sử dụng dịch vụ.
+
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/trung-tam-chuan-oan-hinh-anh"
+                                            class="action action-view">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/469/catalog/anh-chinh-xet-nghiem-1.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/471/catalog/speciality5-1-2.png?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/470/catalog/service2-2-1.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Xét nghiệm
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Trung tâm Xét nghiệm MEDLATEC - thương hiệu xét nghiệm số 1 phía Bắc, tự hào là
+                                        nơi tụ hội được đội ngũ chuyên gia đầu ngành và luôn đón đầu những công nghệ
+                                        hiện đại, đồng bộ, tự động. Bởi vậy, trong suốt 23 năm qua, chất lượng xét
+                                        nghiệm của Bệnh viện Đa khoa MEDLATEC không ngừng nhận được sự đánh giá cao của
+                                        các chuyên gia, bác sĩ cũng như niềm tin tưởng, hài lòng chất lượng của nhân dân
+                                        trên khắp mọi miền cả nước.
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/trung-tam-xet-nghiem" class="action action-view">Xem chi
+                                            tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/476/catalog/anh-chinh-ngoai-khoa-1.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/478/catalog/speciality6-1-1.png?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/477/catalog/specialty6-2-1.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Khoa ngoại
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Để đáp ứng nhu cầu của người dân về điều trị hiệu quả và nhanh chóng các bệnh
+                                        mặt thông qua phẫu thuật hoặc tiểu phẫu, Chuyên khoa Ngoại của Bệnh viện Đa khoa
+                                        MEDLATEC đã được thành lập.
+
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/ngoai-khoa" class="action action-view">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/204/catalog/anh-chinh-chuyen-khoa-tieu-hoa.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/145/catalog/speciality7-1.png?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/144/catalog/specialty7-2.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Tiêu hóa
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Chuyên khoa Tiêu hóa được hình thành và phát triển gắn liền với sự phát triển
+                                        của bệnh viện. Không ngừng nâng cao trình độ chuyên môn, tinh thần phục vụ tận
+                                        tậm của đội ngũ chuyên gia và việc đi đầu các kỹ thuật hiện đại, chuyên Khoa
+                                        Tiêu hóa, Bệnh viện Đa khoa MEDLATEC đã không ngừng chiếm được niềm tin, sự hài
+                                        lòng của khách hàng mọi lứa tuổi tại Hà Nội và các tình lân cận.
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/tieu-hoa" class="action action-view">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/484/catalog/anh-chinh-noi-tiet-2.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/486/catalog/speciality8-1-2.png?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/485/catalog/specialty8-2-2.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Nội tiết
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Với uy tín chẩn đoán và điều trị bệnh chính xác, cùng sự phục vụ tận tâm, tận
+                                        tụy, chuyên khoa Nội tiết – Bệnh viện Đa khoa không ngừng chiếm được niềm tưởng
+                                        của khách hàng là địa chỉ thăm khám, kiểm tra và điều trị bệnh lý nội tiết tin
+                                        cậy.
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/noi-tiet-3" class="action action-view">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/207/catalog/chuyen-khoa-tim-mach.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/151/catalog/speciality10-1.png?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/150/catalog/specialty10-2.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Tim mạch
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Chuyên khoa Tim mạch của Bệnh viện Đa khoa MEDLATEC là địa chỉ khám, điều trị
+                                        bệnh lý tim mạch uy tín, chất lượng được đông đảo người dân cả nước tin tưởng và
+                                        lựa chọn. Với mong muốn giúp khách hàng, người bệnh tiếp cận với các dịch vụ y
+                                        tế chất lượng cao, chuyên khoa đã không ngừng cập nhật, ứng dụng các phương pháp
+                                        điều trị hiện đại để mang lại hiệu quả và sự an toàn tuyệt đối.
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/tim-mach" class="action action-view">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/488/catalog/anh-chinh-nam-khoa-1.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/490/catalog/speciality11-1-1.png?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/489/catalog/specialty11-2-1.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Nam khoa
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Nam khoa là chuyên khoa y tế chăm sóc sức khỏe của nam giới, đặc biệt liên quan
+                                        đến các vấn đề về sức khỏe sinh sản và sức khỏe tình dục – tiết niệu. Trước tầm
+                                        quan trọng đó, chuyên khoa Nam khoa, Bệnh viện Đa khoa MEDLATEC đã được chú
+                                        trọng phát triển để mang đến chất lượng và sự hài lòng nhất của khách hàng đến
+                                        khám và điều trị tại đây.
+
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/nam-khoa-3" class="action action-view">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/211/catalog/anh-chinh-co-xuong-khop.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/159/catalog/speciality14-1.png?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/158/catalog/specialty14-2.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Chuyên khoa Cơ xương khớp
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Bệnh cơ xương khớp không gây hậu quả nghiêm trọng, tức thời, nhưng lâu dài bệnh
+                                        ảnh hưởng đến chức năng vận động của khớp, thậm chí có thể gây tàn phế nếu không
+                                        được chẩn đoán sớm và điều trị kịp thời. Với mong muốn giúp người dân có một hệ
+                                        vận động khỏe mạnh, chuyên Khoa Cơ xương khớp - Bệnh viện Đa khoa MEDLATEC được
+                                        ra đời và chiếm niềm tin tưởng phục vụ chẩn đoán, điều trị bệnh với đông đảo
+                                        khách hàng cùng người nhà bệnh nhân.
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/xuong-khop" class="action action-view">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/492/catalog/anh-chinh-truyen-nhiem-1.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/494/catalog/speciality17-1-1.png?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/493/catalog/specialty17-2-1.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Truyền nhiễm
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Bệnh truyền nhiễm nếu không được phát hiện và điều trị kịp thời sẽ để lại những
+                                        hậu quả khôn lường. Với mong muốn giúp người dân tầm soát, chẩn đoán chính xác,
+                                        nhanh và hiệu quả các bệnh truyền nhiễm, chuyên khoa Truyền nhiễm của Bệnh viện
+                                        Đa khoa MEDLATEC đã được đầu tư đồng bộ để trở thành địa chỉ y tế tin cậy của
+                                        người dân.
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/chuyen-khoa-truyen-nhiem" class="action action-view">Xem
+                                            chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/500/catalog/anh-chinh-chuyen-khoa-noi-than-kinh-2.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/502/catalog/speciality16-1-2.png?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/501/catalog/specialty16-2-2.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Thần kinh
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        nếu không được chẩn đoán và điều trị kịp thời, khiến nặng thêm như các bệnh lý
+                                        tim mạch, huyết áp, rối loạn điều chỉnh cảm xúc, suy giảm trí nhớ, suy giảm chức
+                                        năng sinh lý của cơ thể. Chuyên khoa Thần kinh, Bệnh viện Đa khoa MEDLATEC là
+                                        địa chỉ uy tín khám và điều trị các bệnh lý thần kinh, tâm thần với cam kết
+                                        chính xác, chất lượng và đa dạng dịch vụ tiện ích.
+
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/than-kinh-2" class="action action-view">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/188/catalog/anh-chinh-khoa-nhi.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/137/catalog/speciality3-1.png?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/136/catalog/speciality3-2.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Nhi khoa
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Chuyên khoa Nhi - Bệnh viện Đa khoa MEDLATEC là địa chỉ uy tín khám, điều trị
+                                        các bệnh lý trẻ em với cam kết uy tín, chất lượng cùng dịch vụ y tế hoàn hảo.
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/khoa-nhi" class="action action-view">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/505/catalog/anh-chinh-mat-1.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/507/catalog/speciality9-1-1.png?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/506/catalog/specialty9-2-1.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Mắt
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Chuyên khoa Mắt của Bệnh viện Đa khoa MEDLATEC đã và đang trở thành địa chỉ tin
+                                        cậy của đông đảo người dân tại Hà Nội, cũng như các tỉnh trên cả nước. Chuyên
+                                        khoa hiện đáp ứng đầy đủ dịch vụ về khám và điều trị các bệnh lý chuyên khoa với
+                                        độ chính xác cao, nhanh gọn và được thanh toán theo quy định với tất cả khách
+                                        hàng có BHYT hoặc bảo lãnh viện phí.
+
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/mat" class="action action-view">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/509/catalog/anh-chinh-tai-mui-hong-1.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/511/catalog/speciality12-1-1.png?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/510/catalog/specialty12-2-1.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Tai mũi họng
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Là một trong những chuyên khoa ra đời ngay sau khi Bệnh viện Đa khoa MEDLATEC
+                                        chính thức đi vào hoạt động, theo thời gian, chuyên khoa Tai mũi họng không
+                                        ngừng lớn mạnh và khẳng định vai trò của mình trong hoạt động chuyên môn bệnh
+                                        viện. Đặc biệt, đến chuyên khoa khám, khách hàng cùng người nhà đã đặt niềm tin,
+                                        sự hài lòng vì có kết quả chẩn đoán, điều trị và thực hiện chính xác các thủ
+                                        thuật bệnh lý tai mũi họng và thanh quản.
+
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/tai-mui-hong-3" class="action action-view">Xem chi
+                                            tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/212/catalog/anh-chinh-da-lieu.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/161/catalog/speciality15-1.png?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/160/catalog/specialty15-2.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Da liễu
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Chuyên khoa Da liễu - Bệnh viện Đa khoa MEDLATEC có đội ngũ y bác sỹ giàu kinh
+                                        nghiệm trong việc chuẩn đoán và điều trị các bệnh lý liên quan đến da và phần
+                                        phụ của da như: Lông, tóc, móng, tuyến mồ hôi, tuyến bã,… Đặc biệt, các bác sỹ
+                                        có trình độ chuyên môn cao áp dụng công nghệ hiện đại nhằm mang lại vẻ đẹp cho
+                                        làn da.
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/da-lieu-2" class="action action-view">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-info">
+                                <div class="service-item-photo">
+                                    <div class="service-item-image">
+                                        <img src="https://medlatec.vn/media/215/catalog/anh-chinh-RHM.jpg?size=600"
+                                            alt="" loading="lazy">
+                                    </div>
+
+                                    <div class="service-item-icon">
+                                        <img src="https://medlatec.vn/media/167/catalog/speciality18-1.png?size=256"
+                                            alt="" loading="lazy" class="base">
+                                        <img src="https://medlatec.vn/media/166/catalog/specialty18-2.png?size=256"
+                                            alt="" loading="lazy" class="hover">
+                                    </div>
+                                </div>
+                                <div class="service-item-details">
+                                    <h3 class="service-item-title">
+                                        Răng hàm mặt
+                                    </h3>
+                                    <div class="service-item-excerpt">
+                                        Với mục tiêu đem đến cho khách hàng sự tự tin khi giao tiếp, chuyên Khoa Răng -
+                                        Hàm - Mặt, Bệnh viện Đa khoa MEDLATEC là địa chỉ tin cậy khám và điều trị bệnh
+                                        lý cũng như thực hiện thẩm mỹ nha khoa.
+
+                                    </div>
+                                    <div class="service-item-actions">
+                                        <a href="/chuyen-khoa/rang-ham-mat" class="action action-view">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="overlay"></div>
+        <!-- end content -->
+        <!-- footer -->
+        <div id="footer">
+            <div class="container">
+                <div class="header-footer">
+                    <a href="" class="logo">
+                        <img src="https://medlatec.vn/media/115/content/logo-pc.png" alt="Health Care">
+                    </a>
+                    <div class="info-contact">
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Lô B4/D21, Khu đô thị mới Cầu Giấy, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Thành phố Hà
+                                Nội, Việt Nam</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>024-7301-2468 (7h - 18h)</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>support@bookingcare.vn (7h - 18h)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="end-footer">
+
+                </div>
+            </div>
+        </div>
+        <!-- end footer -->
+    </div>
+
+    <script src="public/components/swiper/js/swiper-bundle.min.js"></script>
+    <script src="public/js/index.js"></script>
+</body>
+
+</html>

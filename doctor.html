@@ -314,15 +314,11 @@
                                     <div class="row">
                                         <div class="col-sm-12 col-xs-12 form-group">
                                             <label>Chọn giờ <sup>*</sup></label>
-                                            <div class="control swiper swiperTimeMeet">
-                                                <div class="swiper-wrapper">
-                                                </div>
-                                                <div class="swiper-button-prev">
-                                                    <i class="fa-solid fa-angle-left"></i>
-                                                </div>
-                                                <div class="swiper-button-next">
-                                                    <i class="fa-solid fa-angle-right"></i>
-                                                </div>
+                                            <div class="control list-times">
+                                                <label class="label-time-meet">
+                                                    <input type="radio" name="time-meet" class="time-meet" value="${time.value}">
+                                                    <span>${time.label}</span>
+                                                </label>
                                             </div>
                                         </div>
                                     </div>
